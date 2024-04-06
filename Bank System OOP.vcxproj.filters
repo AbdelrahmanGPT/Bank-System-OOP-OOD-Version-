@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Interface Layer">
+      <UniqueIdentifier>{cd8aa526-c6bd-43ad-9870-be1ebf920e67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Libraries">
+      <UniqueIdentifier>{011eabed-86ae-4631-9759-714e93535c3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Business %28Logic%29 Layer">
+      <UniqueIdentifier>{0b91249f-7dbe-48f9-a075-96179f21e2cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Interface Layer\Client Screens">
+      <UniqueIdentifier>{13a24b07-d161-4ce8-a6c9-efecaf5bee29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Interface Layer\User Screens">
+      <UniqueIdentifier>{13a401bd-4a79-490a-a9e3-7a8288b74713}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Interface Layer\Currency Screens">
+      <UniqueIdentifier>{e3c22cc5-f3f8-4aea-a846-70e2a26d01b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Interface Layer\Client Screens\Transactions Screen">
+      <UniqueIdentifier>{345a10d5-7b61-4615-a22b-16a2ddc0860c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Bank System OOP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Client.h">
+      <Filter>Header Files\Business %28Logic%29 Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="Currency.h">
+      <Filter>Header Files\Business %28Logic%29 Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="Person.h">
+      <Filter>Header Files\Business %28Logic%29 Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>Header Files\Business %28Logic%29 Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="String.h">
+      <Filter>Header Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="Date.h">
+      <Filter>Header Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="Period.h">
+      <Filter>Header Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="Input_Validation.h">
+      <Filter>Header Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="ABODAstd.h">
+      <Filter>Header Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalUser.h">
+      <Filter>Header Files\Interface Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="InterfaceCommunication.h">
+      <Filter>Header Files\Interface Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="MainScreen.h">
+      <Filter>Header Files\Interface Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen.h">
+      <Filter>Header Files\Interface Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="AddNewClientScreen.h">
+      <Filter>Header Files\Interface Layer\Client Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientListScreen.h">
+      <Filter>Header Files\Interface Layer\Client Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="DeleteClientScreen.h">
+      <Filter>Header Files\Interface Layer\Client Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="FindClientScreen.h">
+      <Filter>Header Files\Interface Layer\Client Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateClientScreen.h">
+      <Filter>Header Files\Interface Layer\Client Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="AddNewUserScreen.h">
+      <Filter>Header Files\Interface Layer\User Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="DeleteUserScreen.h">
+      <Filter>Header Files\Interface Layer\User Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="FindUserScreen.h">
+      <Filter>Header Files\Interface Layer\User Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="ListUsersScreen.h">
+      <Filter>Header Files\Interface Layer\User Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginRegisterScreen.h">
+      <Filter>Header Files\Interface Layer\User Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="ManageUsersScreen.h">
+      <Filter>Header Files\Interface Layer\User Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateUserScreen.h">
+      <Filter>Header Files\Interface Layer\User Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="CurrenciesListScreen.h">
+      <Filter>Header Files\Interface Layer\Currency Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="CurrencyCalculatorScreen.h">
+      <Filter>Header Files\Interface Layer\Currency Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="CurrencyExchangeMainScreen.h">
+      <Filter>Header Files\Interface Layer\Currency Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="FindCurrencyScreen.h">
+      <Filter>Header Files\Interface Layer\Currency Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateCurrencyRateScreen.h">
+      <Filter>Header Files\Interface Layer\Currency Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginScreen.h">
+      <Filter>Header Files\Interface Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="TransactionsScreen.h">
+      <Filter>Header Files\Interface Layer\Client Screens\Transactions Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="TransferLogScreen.h">
+      <Filter>Header Files\Interface Layer\Client Screens\Transactions Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="DepositeScreen.h">
+      <Filter>Header Files\Interface Layer\Client Screens\Transactions Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="WithdrawScreen.h">
+      <Filter>Header Files\Interface Layer\Client Screens\Transactions Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="TransferScreen.h">
+      <Filter>Header Files\Interface Layer\Client Screens\Transactions Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="TotalBalancesScreen.h">
+      <Filter>Header Files\Interface Layer\Client Screens\Transactions Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>Header Files\Libraries</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
